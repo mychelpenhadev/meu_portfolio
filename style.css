@@ -461,10 +461,7 @@ main .sobre {
 
 .resume_generico {
     padding: 30px;
-    justify-content: center;
     align-items: start;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
 }
 .resume_generico h2 {
     font-family: 'Poppins';
