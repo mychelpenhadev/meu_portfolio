@@ -6,6 +6,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
@@ -13,6 +14,8 @@
 
 body {
   background-color: #000;
+  max-width: 1200px;
+  margin: 0 auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -360,6 +363,7 @@ main .sobre {
 }
 
 .my_services {
+    padding: 60px;
     color: white;
 }
 
@@ -375,8 +379,7 @@ main .sobre {
     background-color: #222;
     padding: 30px;
     border-radius: 5px;
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
     text-align: center;
     transition: .3s ease-in-out;
     cursor: pointer;
@@ -449,13 +452,6 @@ main .sobre {
     height: 100%;
     border-bottom: 2px solid red;
     border-left: 2px solid red;
-}
-
-@media (max-width: 768px) {
-    .my_services ul li {
-        width: 100%;
-        padding: 20px;
-    }
 }
 
 /* EXPERIENCIAS*/
